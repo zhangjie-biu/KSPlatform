@@ -5,93 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c0db6ba-3ed9-4aa6-84b9-616698708021" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/easyCodeTableSetting.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/redisSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foreground/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foreground/src/main/java/com/zhangjie/BlogApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foreground/src/main/java/com/zhangjie/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foreground/src/main/java/com/zhangjie/controller/ArticleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foreground/src/main/java/com/zhangjie/controller/BlogLoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foreground/src/main/java/com/zhangjie/controller/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foreground/src/main/java/com/zhangjie/controller/CommentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foreground/src/main/java/com/zhangjie/controller/LinkController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foreground/src/main/java/com/zhangjie/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foreground/src/main/java/com/zhangjie/controller/uploadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foreground/src/main/java/com/zhangjie/filter/JwtAuthenticationTokenFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foreground/src/main/java/com/zhangjie/job/UpdateViewCountJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foreground/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foreground/src/test/java/com/zhangjie/BlogApplicationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/annotation/SystemLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/aspect/LogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/config/FastJsonRedisSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/config/MyBatisPlusConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/constants/SystemConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/ResponseResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/dto/AddCommentDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/entity/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/entity/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/entity/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/entity/Link.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/entity/LoginUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/vo/ArticleDetailVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/vo/ArticleListVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/vo/BlogUserLoginVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/vo/CategoryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/vo/CommentVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/vo/HotArticleVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/vo/LinkVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/vo/PageVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/vo/UserInfoVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/enums/AppHttpCodeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/exception/SystemException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/handler/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/handler/mybitsplus/MyMetaObjectHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/handler/security/AccessDeniedHandlerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/handler/security/AuthenticationEntryPointImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/mapper/ArticleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/mapper/CategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/mapper/CommentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/mapper/LinkMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/runner/ViewCountRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/ArticleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/BlogLoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/CommentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/LinkService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/UploadService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/impl/ArticleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/impl/BlogLoginServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/impl/CommentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/impl/LinkServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/impl/UploadServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/utils/BeanCopyUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/utils/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/utils/OssUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/utils/RedisCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/utils/SecurityUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/utils/WebUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/test/java/com/zhangjie/OSSTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,37 +41,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/project/myJob/RD/Java/Blog/foreground/src/test/java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "4a3673e378e0ca8a5ce425f275236277",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/project/myJob/RD/Java/Blog/foreground/src/test/java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;4a3673e378e0ca8a5ce425f275236277&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -285,7 +199,9 @@
       <workItem from="1673609869473" duration="5489000" />
       <workItem from="1673698129196" duration="95002000" />
       <workItem from="1674869461272" duration="15575000" />
-      <workItem from="1674939097940" duration="7269000" />
+      <workItem from="1674939097940" duration="7741000" />
+      <workItem from="1675147844548" duration="328000" />
+      <workItem from="1675148302245" duration="1410000" />
     </task>
     <servers />
   </component>
