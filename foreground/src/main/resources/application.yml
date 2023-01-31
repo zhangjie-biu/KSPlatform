@@ -1,0 +1,30 @@
+server:
+  port: 7777
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.232.129/zj_blog?characterEncoding=utf-8&serverTimezone=UTC
+    username: root
+    password: 120197
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    host: 192.168.232.129
+    port: 6379
+  servlet:
+    multipart:
+      max-file-size: 2MB
+      max-request-size: 5MB
+mybatis-plus:
+  configuration:
+    # 日志
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      logic-delete-field: delFlag  #逻辑删除
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+      id-type: auto
+oss:
+  endpoint: https://oss-cn-beijing.aliyuncs.com
+  accessKeyId: LTAI5tA7moSmchBWH1zBowvb
+  accessKeySecret: 6DpP0ms61WQyggIgrBk74GdJeTjNYt
+  bucketName: bucket-blog-zhangjie-beijing
