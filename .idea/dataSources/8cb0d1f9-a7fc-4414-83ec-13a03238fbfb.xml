@@ -1229,7 +1229,7 @@ tag_id</ColNames>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="331" parent="301" name="id">
-      <AutoIncrement>15</AutoIncrement>
+      <AutoIncrement>14</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -1422,7 +1422,7 @@ tag_id</ColNames>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="370" parent="304" name="id">
-      <AutoIncrement>2028</AutoIncrement>
+      <AutoIncrement>2033</AutoIncrement>
       <Comment>菜单ID</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>

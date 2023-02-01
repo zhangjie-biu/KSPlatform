@@ -4,7 +4,9 @@ import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.zhangjie.constants.SystemConstants;
+import com.zhangjie.domain.dto.AddArticleDto;
 import com.zhangjie.domain.entity.Article;
+import com.zhangjie.domain.entity.ArticleTag;
 import com.zhangjie.domain.entity.Category;
 import com.zhangjie.domain.vo.ArticleDetailVo;
 import com.zhangjie.domain.vo.ArticleListVo;
@@ -12,6 +14,7 @@ import com.zhangjie.domain.vo.HotArticleVo;
 import com.zhangjie.domain.vo.PageVo;
 import com.zhangjie.mapper.ArticleMapper;
 import com.zhangjie.service.ArticleService;
+import com.zhangjie.service.ArticleTagService;
 import com.zhangjie.service.CategoryService;
 import com.zhangjie.utils.BeanCopyUtils;
 import com.zhangjie.utils.RedisCache;
@@ -30,6 +33,9 @@ public class ArticleServiceImpl extends ServiceImpl<ArticleMapper, Article> impl
     RedisCache redisCache;
     @Autowired
     CategoryService categoryService;
+
+    @Autowired
+    ArticleTagService articleTagService;
 
     @Override
     public List<HotArticleVo> getHotArticleList() {
@@ -98,5 +104,31 @@ public class ArticleServiceImpl extends ServiceImpl<ArticleMapper, Article> impl
     public void updateViewCount(Long id) {
         //更新redis中对应id的浏览量
         redisCache.incrementCacheMapValue(SystemConstants.ARTICLE_VIEW_COUNT_REDIS_CACHE,id.toString(),1);
+    }
+
+    @Override
+    public void addArticle(AddArticleDto articleDto) {
+        //保存文章内容
+        Article article = BeanCopyUtils.copyBean(articleDto, Article.class);
+        save(article);
+
+        //保存文章标签关联
+        List<ArticleTag> articleTags = articleDto.getTags().stream()
+                .map(tagId -> new ArticleTag(articleDto.getId(), tagId))
+                .collect(Collectors.toList());
+
+        articleTagService.saveBatch(articleTags);
+    }
+
+    @Override
+    public Object getArticleList(Integer pageNum, Integer pageSize) {
+        //
+        Page page = new Page(pageNum, pageSize);
+        LambdaQueryWrapper<Article> lambdaQueryWrapper = new LambdaQueryWrapper<>();
+        lambdaQueryWrapper.eq(Article::getStatus,SystemConstants.ARTICLE_STATUS_NORMAL);
+
+        page(page,lambdaQueryWrapper);
+
+        return null;
     }
 }

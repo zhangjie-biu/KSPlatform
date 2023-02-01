@@ -1,10 +1,12 @@
 package com.zhangjie.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.zhangjie.constants.SystemConstants;
 import com.zhangjie.domain.entity.Article;
 import com.zhangjie.domain.entity.Category;
+import com.zhangjie.domain.vo.AdminCategoryVo;
 import com.zhangjie.domain.vo.CategoryVo;
 import com.zhangjie.mapper.CategoryMapper;
 import com.zhangjie.service.ArticleService;
@@ -48,6 +50,25 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryMapper, Category> i
         //封装成VO
 
         return BeanCopyUtils.copyBeanList(categories1, CategoryVo.class);
+    }
+
+    @Override
+    public Object getCategoryList(Integer pageNum, Integer pageSize) {
+        // 查询分类表
+        LambdaQueryWrapper<Category> lambdaQueryWrapper =new LambdaQueryWrapper<>();
+        lambdaQueryWrapper.eq(Category::getStatus,SystemConstants.CATEGORY_STATUS_NORMAL);
+        Page page=new Page(pageNum,pageSize);
+        page(page,lambdaQueryWrapper);
+        //封装成VO
+        List<AdminCategoryVo> adminCategoryVos = BeanCopyUtils.copyBeanList(page.getRecords(), AdminCategoryVo.class);
+        return adminCategoryVos;
+    }
+
+    @Override
+    public Object listAllCategory() {
+        List<Category> categories = list();
+        List<CategoryVo> categoryVos = BeanCopyUtils.copyBeanList(categories, CategoryVo.class);
+        return categoryVos;
     }
 }
 

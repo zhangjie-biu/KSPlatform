@@ -5,7 +5,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c0db6ba-3ed9-4aa6-84b9-616698708021" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/zhangjie/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/zhangjie/controller/ArticleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/zhangjie/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/zhangjie/controller/TagController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/zhangjie/controller/uploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/zhangjie/filter/JwtAuthenticationTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/dto/AddArticleDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/entity/ArticleTag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/entity/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/entity/Tag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/vo/AdminCategoryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/vo/AdminUserInfoVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/vo/ExcelCategoryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/vo/RoutersVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/vo/TagListVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/vo/TagVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/mapper/ArticleTagMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/mapper/MenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/mapper/TagMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/AdminLoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/ArticleTagService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/MenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/TagService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/impl/AdimnLoginServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/impl/ArticleTagServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/impl/MenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/impl/TagServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/resources/mapper/MenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/resources/mapper/RoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8cb0d1f9-a7fc-4414-83ec-13a03238fbfb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8cb0d1f9-a7fc-4414-83ec-13a03238fbfb.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/easyCodeTableSetting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/easyCodeTableSetting.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foreground/src/main/java/com/zhangjie/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/foreground/src/main/java/com/zhangjie/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foreground/src/main/java/com/zhangjie/controller/BlogLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/foreground/src/main/java/com/zhangjie/controller/BlogLoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/constants/SystemConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/constants/SystemConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/dto/AddCommentDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/entity/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/entity/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/enums/AppHttpCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/enums/AppHttpCodeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/ArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/BlogLoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/BlogLoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/impl/ArticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/impl/BlogLoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/impl/BlogLoginServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/utils/WebUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/utils/WebUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/zhangjie/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/src/test/java/com/zhangjie/OSSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/test/java/OSSTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +70,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Mybatis Mapper" />
         <option value="Class" />
       </list>
     </option>
@@ -41,53 +96,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/project/myJob/RD/Java/Blog/foreground/src/test/java&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;4a3673e378e0ca8a5ce425f275236277&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "D:/project/myJob/RD/Java/Blog/framework/src/main/java/com/zhangjie/service",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "4a3673e378e0ca8a5ce425f275236277",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.zhangjie.service" />
       <recent name="com.zhangjie.domain.vo" />
+      <recent name="com.zhangjie.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\project\myJob\RD\Java\Blog\foreground\src\test\java" />
-      <recent name="D:\project\myJob\RD\Java\Blog\admin\src\test\java" />
-      <recent name="D:\project\myJob\RD\Java\Blog\framework\src\test" />
-      <recent name="D:\project\myJob\RD\Java\Blog\framework\src\main\resources" />
       <recent name="D:\project\myJob\RD\Java\Blog\framework\src\main\java\com\zhangjie\service" />
+      <recent name="D:\project\myJob\RD\Java\Blog\admin\src\test\java" />
+      <recent name="D:\project\myJob\RD\Java\Blog\framework\src\main" />
+      <recent name="D:\project\myJob\RD\Java\Blog\admin\src\main\java\com\zhangjie" />
+      <recent name="D:\project\myJob\RD\Java\Blog\admin\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project\myJob\RD\Java\Blog\admin\src\main" />
       <recent name="D:\project\myJob\RD\Java\Blog\framework\src" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -96,49 +152,36 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.zhangjie.mapper" />
       <recent name="com.zhangjie.domain.entity" />
+      <recent name="com.zhangjie.controller" />
+      <recent name="com.zhangjie.service.impl" />
+      <recent name="com.zhangjie.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.BlogApplication">
-    <configuration name="BlogApplicationTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="foreground" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhangjie.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zhangjie" />
-      <option name="MAIN_CLASS_NAME" value="com.zhangjie.BlogApplicationTest" />
-      <option name="TEST_OBJECT" value="class" />
+  <component name="RunManager" selected="Spring Boot.BlogAdminApplication">
+    <configuration name="OSSTest.Test1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="admin" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OSSTest" />
+      <option name="METHOD_NAME" value="Test1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BlogApplicationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="foreground" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="zhangjie.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="zhangjie" />
-      <option name="MAIN_CLASS_NAME" value="zhangjie.BlogApplicationTest" />
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="OSSTest.Test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="admin" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OSSTest" />
+      <option name="METHOD_NAME" value="Test2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="OSSTest.uploadOSS (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="foreground" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="zhangjie.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="zhangjie" />
-      <option name="MAIN_CLASS_NAME" value="zhangjie.OSSTest" />
+      <module name="admin" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OSSTest" />
       <option name="METHOD_NAME" value="uploadOSS" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -146,7 +189,7 @@
       </method>
     </configuration>
     <configuration name="OSSTest.uploadOSS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="foreground" />
+      <module name="framework" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zhangjie.*" />
@@ -161,9 +204,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="foreground" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhangjie.BlogApplication" />
+    <configuration name="BlogAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhangjie.BlogAdminApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zhangjie.*" />
@@ -176,9 +219,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.BlogApplication" />
-        <item itemvalue="JUnit.BlogApplicationTest (1)" />
-        <item itemvalue="JUnit.BlogApplicationTest" />
+        <item itemvalue="Spring Boot.BlogAdminApplication" />
+        <item itemvalue="JUnit.OSSTest.Test2" />
+        <item itemvalue="JUnit.OSSTest.Test1 (1)" />
         <item itemvalue="JUnit.OSSTest.uploadOSS (1)" />
         <item itemvalue="JUnit.OSSTest.uploadOSS" />
       </list>
@@ -201,7 +244,7 @@
       <workItem from="1674869461272" duration="15575000" />
       <workItem from="1674939097940" duration="7741000" />
       <workItem from="1675147844548" duration="328000" />
-      <workItem from="1675148302245" duration="1410000" />
+      <workItem from="1675148302245" duration="36642000" />
     </task>
     <servers />
   </component>

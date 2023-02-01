@@ -15,5 +15,9 @@ import java.util.List;
 public interface CategoryService extends IService<Category> {
 
     List<?> getCategoryList();
+
+    Object getCategoryList(Integer pageNum, Integer pageSize);
+
+    Object listAllCategory();
 }
 

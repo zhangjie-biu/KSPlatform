@@ -58,5 +58,19 @@ public class SystemConstants
      * 文章浏览缓存键
      */
     public static final String ARTICLE_VIEW_COUNT_REDIS_CACHE = "Article:viewCount";
+
+    /**
+     * 目录
+     */
+    public static final String MENU = "C";
+
+    /**
+     * 按钮
+     */
+    public static final String BUTTON = "F";
+    /**
+     *
+     */
+    public static final String STATUS_NORMAL = "0";
 }
 

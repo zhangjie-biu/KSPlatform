@@ -34,7 +34,7 @@ public class BlogLoginController {
     public ResponseResult<?> logout(){
 
         //处理业务
-        blogLoginService.logiout();
+        blogLoginService.logout();
 
         return ResponseResult.okResult();
     }
