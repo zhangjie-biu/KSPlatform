@@ -1,6 +1,7 @@
 package com.zhangjie.domain.entity;
 
 import java.util.Date;
+import java.util.List;
 
 import com.baomidou.mybatisplus.annotation.FieldFill;
 import com.baomidou.mybatisplus.annotation.TableField;
@@ -64,6 +65,11 @@ public class Article  {
      * 是否允许评论 1是，0否
      */
     private String isComment;
+    /**
+     * 标签
+     */
+    @TableField(exist = false)
+    private List<Long> tags;
 
     @TableField(fill= FieldFill.INSERT)
     private Long createBy;

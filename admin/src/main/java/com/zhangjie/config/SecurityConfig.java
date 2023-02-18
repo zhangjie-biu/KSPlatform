@@ -47,7 +47,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/content/category/listAllCategory").authenticated()
                 .antMatchers("/content/tag/listAllTag").authenticated()
                 .antMatchers("/content/category/export").authenticated()
-                .antMatchers("/user/getInfo").authenticated()
+                .antMatchers("/content/article").authenticated()
                 .antMatchers("/user/getInfo").authenticated()
 
                 // 除上面外的所有请求全部不需要认证即可访问

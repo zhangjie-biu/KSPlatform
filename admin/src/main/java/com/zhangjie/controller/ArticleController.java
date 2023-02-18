@@ -31,5 +31,23 @@ public class ArticleController {
 
     }
 
+    @RequestMapping(value = "/content/article/{id}",method = {RequestMethod.GET})
+    public ResponseResult<?> getArticle(@PathVariable Long id){
+        //查询文章封装成ResponseResult返回
+
+        return ResponseResult.okResult(articleService.getArticle(id));
+
+    }
+
+
+    @RequestMapping(value ="/content/article",method = {RequestMethod.PUT})
+    public ResponseResult<?> updateArticle(@RequestBody AddArticleDto article){
+        //查询热门文章封装成ResponseResult返回
+
+        articleService.updateArticle(article);
+        return ResponseResult.okResult();
+
+    }
+
 
 }

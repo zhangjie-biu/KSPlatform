@@ -72,5 +72,9 @@ public class SystemConstants
      *
      */
     public static final String STATUS_NORMAL = "0";
+    /**
+     * 管理员
+     */
+    public static final String ADMIN = "1";
 }
 

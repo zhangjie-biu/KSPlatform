@@ -1,8 +1,10 @@
 package com.zhangjie.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+import com.zhangjie.constants.SystemConstants;
 import com.zhangjie.domain.entity.LoginUser;
 import com.zhangjie.domain.entity.User;
+import com.zhangjie.mapper.MenuMapper;
 import com.zhangjie.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -10,6 +12,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.Objects;
 
 @Service
@@ -17,6 +20,9 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 
     @Autowired
     UserMapper userMapper;
+
+    @Autowired
+    MenuMapper menuMapper;
 
     @Override
     public UserDetails loadUserByUsername(String s) throws UsernameNotFoundException {
@@ -28,9 +34,13 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         if(Objects.isNull(user)){
             throw new RuntimeException("用户不存在");
         }
-        //TODO 查询权限信息封装
+        // 查询权限信息封装
+        if(user.getType().equals(SystemConstants.ADMIN)){
+            List<String> perms = menuMapper.selectPermsByUserId(user.getId());
+            return new LoginUser(user,perms);
+        }
         //查询到用户返回用户信息
 
-        return new LoginUser(user);
+        return new LoginUser(user,null);
     }
 }

@@ -5,61 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c0db6ba-3ed9-4aa6-84b9-616698708021" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/zhangjie/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/zhangjie/controller/ArticleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/zhangjie/controller/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/zhangjie/controller/TagController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/zhangjie/controller/uploadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/zhangjie/filter/JwtAuthenticationTokenFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/dto/AddArticleDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/entity/ArticleTag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/entity/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/entity/Tag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/vo/AdminCategoryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/vo/AdminUserInfoVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/vo/ExcelCategoryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/vo/RoutersVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/vo/TagListVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/vo/TagVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/mapper/ArticleTagMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/mapper/MenuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/mapper/RoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/mapper/TagMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/AdminLoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/ArticleTagService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/MenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/TagService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/impl/AdimnLoginServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/impl/ArticleTagServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/impl/MenuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/impl/RoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/impl/TagServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/resources/mapper/MenuMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/src/main/resources/mapper/RoleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8cb0d1f9-a7fc-4414-83ec-13a03238fbfb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8cb0d1f9-a7fc-4414-83ec-13a03238fbfb.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/easyCodeTableSetting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/easyCodeTableSetting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/test/java/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/test/java/leetcode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/permission/PermissionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foreground/src/main/java/com/zhangjie/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/foreground/src/main/java/com/zhangjie/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foreground/src/main/java/com/zhangjie/controller/BlogLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/foreground/src/main/java/com/zhangjie/controller/BlogLoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/zhangjie/BlogAdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/zhangjie/BlogAdminApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/zhangjie/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/zhangjie/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/zhangjie/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/zhangjie/controller/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/zhangjie/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/zhangjie/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/framework/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/constants/SystemConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/constants/SystemConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/dto/AddCommentDto.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/entity/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/entity/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/enums/AppHttpCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/enums/AppHttpCodeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/entity/ArticleTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/entity/ArticleTag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/entity/LoginUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/domain/entity/LoginUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/mapper/ArticleTagMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/mapper/ArticleTagMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/ArticleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/BlogLoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/BlogLoginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/ArticleTagService.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/ArticleTagService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/impl/ArticleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/impl/BlogLoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/impl/BlogLoginServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/utils/WebUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/utils/WebUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/zhangjie/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/src/test/java/com/zhangjie/OSSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/test/java/OSSTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/impl/ArticleTagServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/impl/ArticleTagServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/impl/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/zhangjie/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +85,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "spring.configuration.checksum": "4a3673e378e0ca8a5ce425f275236277",
     "vue.rearranger.settings.migration": "true"
   },
@@ -157,7 +125,21 @@
       <recent name="com.zhangjie.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.BlogAdminApplication">
+  <component name="RunManager" selected="Application.Solution">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
+      <module name="admin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode" />
+      <module name="admin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OSSTest.Test1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="admin" />
       <option name="PACKAGE_NAME" value="" />
@@ -178,32 +160,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OSSTest.uploadOSS (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="admin" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OSSTest" />
-      <option name="METHOD_NAME" value="uploadOSS" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OSSTest.uploadOSS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="framework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhangjie.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zhangjie" />
-      <option name="MAIN_CLASS_NAME" value="com.zhangjie.OSSTest" />
-      <option name="METHOD_NAME" value="uploadOSS" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BlogAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="admin" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhangjie.BlogAdminApplication" />
@@ -219,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.leetcode" />
         <item itemvalue="Spring Boot.BlogAdminApplication" />
         <item itemvalue="JUnit.OSSTest.Test2" />
         <item itemvalue="JUnit.OSSTest.Test1 (1)" />
-        <item itemvalue="JUnit.OSSTest.uploadOSS (1)" />
-        <item itemvalue="JUnit.OSSTest.uploadOSS" />
       </list>
     </recent_temporary>
   </component>
@@ -244,11 +200,43 @@
       <workItem from="1674869461272" duration="15575000" />
       <workItem from="1674939097940" duration="7741000" />
       <workItem from="1675147844548" duration="328000" />
-      <workItem from="1675148302245" duration="36642000" />
+      <workItem from="1675148302245" duration="46143000" />
+      <workItem from="1675348532771" duration="5477000" />
+      <workItem from="1675399267892" duration="438000" />
+      <workItem from="1675667826016" duration="6414000" />
+      <workItem from="1675792675231" duration="2324000" />
+      <workItem from="1676364317288" duration="1562000" />
+      <workItem from="1676688277682" duration="923000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/admin/src/test/java/leetcode.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/admin/src/test/java/leetcode.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/admin/src/test/java/Solution.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/admin/src/test/java/Solution.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

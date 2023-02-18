@@ -59,6 +59,10 @@
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.github.jeffreyning</groupId>
+            <artifactId>mybatisplus-plus</artifactId>
+        </dependency>
         <!--mysql数据库驱动-->
         <dependency>
             <groupId>mysql</groupId>

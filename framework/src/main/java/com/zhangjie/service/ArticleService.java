@@ -19,4 +19,8 @@ public interface ArticleService extends IService<Article> {
     void addArticle(AddArticleDto article);
 
     Object getArticleList(Integer pageNum, Integer pageSize);
+
+    Object getArticle(Long id);
+
+    void updateArticle(AddArticleDto article);
 }

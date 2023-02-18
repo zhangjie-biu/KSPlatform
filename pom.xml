@@ -50,6 +50,12 @@
                 <artifactId>mybatis-plus-boot-starter</artifactId>
                 <version>3.4.3</version>
             </dependency>
+            <dependency>
+                <groupId>com.github.jeffreyning</groupId>
+                <artifactId>mybatisplus-plus</artifactId>
+                <version>1.7.3-RELEASE</version>
+            </dependency>
+
 
             <!--阿里云OSS-->
             <dependency>

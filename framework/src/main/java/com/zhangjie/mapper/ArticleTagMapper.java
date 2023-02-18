@@ -1,6 +1,7 @@
 package com.zhangjie.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.github.jeffreyning.mybatisplus.base.MppBaseMapper;
 import com.zhangjie.domain.entity.ArticleTag;
 
 

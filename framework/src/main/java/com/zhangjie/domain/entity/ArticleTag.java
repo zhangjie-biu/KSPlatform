@@ -2,6 +2,7 @@ package com.zhangjie.domain.entity;
 
 
 import com.baomidou.mybatisplus.annotation.TableName;
+import com.github.jeffreyning.mybatisplus.anno.MppMultiId;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -19,8 +20,10 @@ import lombok.NoArgsConstructor;
 @TableName("article_tag")
 public class ArticleTag {
     //文章id@TableId
+    @MppMultiId
     private Long articleId;
     //标签id@TableId
+    @MppMultiId
     private Long tagId;
 
 

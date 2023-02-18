@@ -2,6 +2,7 @@ package com.zhangjie.service.impl;
 
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.github.jeffreyning.mybatisplus.service.MppServiceImpl;
 import com.zhangjie.domain.entity.ArticleTag;
 import com.zhangjie.mapper.ArticleTagMapper;
 import com.zhangjie.service.ArticleTagService;
@@ -13,7 +14,7 @@ import org.springframework.stereotype.Service;
  * @author makejava
  * @since 2023-02-01 06:32:01
  */
-@Service("articleTagService")
+@Service
 public class ArticleTagServiceImpl extends ServiceImpl<ArticleTagMapper, ArticleTag> implements ArticleTagService {
 
 }
