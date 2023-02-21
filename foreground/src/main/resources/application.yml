@@ -24,7 +24,7 @@ mybatis-plus:
       logic-not-delete-value: 0
       id-type: auto
 oss:
-  endpoint: https://oss-cn-beijing.aliyuncs.com
-  accessKeyId: LTAI5tA7moSmchBWH1zBowvb
-  accessKeySecret: 6DpP0ms61WQyggIgrBk74GdJeTjNYt
-  bucketName: bucket-blog-zhangjie-beijing
+  endpoint: ******************************
+  accessKeyId: *****************************
+  accessKeySecret: ******************************
+  bucketName: *******************************
